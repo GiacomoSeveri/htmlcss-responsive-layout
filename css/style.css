@@ -15,6 +15,11 @@ body {
     margin: 0 auto;
 }
 
+.s-title {
+    margin: 15px 0;
+    font-size: 35px;
+}
+
 /* header */
 
 header{
@@ -132,7 +137,7 @@ a {
     margin: 20px 0;
 }
 
-.color-p {
+.card-p {
     font-size: 12px;
     color: #5B6F81;
     line-height: 20px;
@@ -168,7 +173,7 @@ a {
     color: #fff;
 }
 
-.color-p-w {
+.card-p-w {
     font-size: 12px;
     color: #fff;
     line-height: 20px;
@@ -204,4 +209,63 @@ a {
 
 .img-w {
     width: 250px;
+}
+
+/* testimonials */
+
+.testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.title-purple {
+    color: #A6A2E8;
+}
+
+.test-p {
+    color: #000;
+    line-height: 30px;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.apici-i {
+    margin-right: 10px;
+}
+
+.apici-f {
+    margin-left: 10px;
+}
+
+.testiomonial-crd {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #A6A2E8;
+    height: 250px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.test-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+
+.desc-test {
+    color: #fff;
+    text-align: left;
+    padding: 15px;
+    margin: 30px 15px;
+}
+
+.name {
+    margin: 15px 0;
 }
