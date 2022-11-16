@@ -15,13 +15,6 @@ body {
     margin: 0 auto;
 }
 
-.btn {
-    padding: 8px 14px;
-    border-radius: 30px;
-    border: 0;
-    cursor: pointer;
-}
-
 /* header */
 
 header {
@@ -29,7 +22,6 @@ header {
     color: #fff;
     padding: 10px 0 15px 0;
     box-shadow: 0 1px 10px 0 #000;
-    position: sticky;
 }
 
 .flex-c {
@@ -47,6 +39,13 @@ a {
     text-decoration: none;
     color: #fff;
     padding: 0 10px;
+}
+
+.btn-h {
+    padding: 8px 14px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
 }
 
 .btn-w {
@@ -79,12 +78,12 @@ a {
     position: relative;
     right: 0;
     top: 0;
-    height: 250px;
+    height: 270px;
 }
 
 .paragraph-1 {
     width: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .phone {
@@ -92,6 +91,13 @@ a {
     position: absolute;
     bottom: 0;
     right: 20px;
+}
+
+.btn-m {
+    padding: 10px 45px;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
 }
 
 .btn-b {
@@ -109,7 +115,7 @@ a {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    height: 250px;
+    height: 270px;
 }
 
 .card-title {
@@ -142,5 +148,5 @@ a {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    height: 250px;
+    height: 270px;
 }
