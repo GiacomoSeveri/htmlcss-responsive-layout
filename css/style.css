@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -78,24 +78,18 @@ a {
 .card-66 {
     width: 66%;
     background-color: #B5DDFF;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     border-radius: 10px;
-    position: relative;
-    right: 0;
-    top: 0;
+    display: flex;
     height: 270px;
 }
 
 .paragraph-1 {
-    width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .phone {
-    width: 170px;
-    position: absolute;
-    bottom: 0;
-    right: 20px;
+    max-width: 100%;
 }
 
 .btn-m {
@@ -203,12 +197,12 @@ a {
 }
 
 .img-v {
-    width: 350px;
+    max-width: 100%;
     margin-bottom: 90px;
 }
 
 .img-w {
-    width: 250px;
+    max-width: 100%;
 }
 
 /* testimonials */
@@ -415,9 +409,25 @@ a {
 }
 
 .margin-f {
-    margin: 25px 0;
+    margin: 25px 0 0 0;
 }
 
 .link-p {
     color: #A6A2E8;
 }
+
+
+/* query */
+
+
+/* 1024px */
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 920px;
+        margin: 0 auto;
+    }
+
+}
+
