@@ -431,3 +431,98 @@ a {
 
 }
 
+/* 768px */
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    /* otion */
+
+    .card-66 {
+        min-height: 400px;
+        flex-direction: column;
+    }
+    
+    .phone {
+        height: 47%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .card-32 {
+        min-height: 400px;
+    }
+
+    .card {
+        min-height: 400px;
+        vertical-align: middle;
+    }
+
+    .icon-c {
+        font-size: 70px;
+    }
+
+    .card-title {
+        font-size: 25px;
+    }
+
+    .card-p {
+        font-size: 14px;
+    }
+
+    /* planning */
+
+    .flex-c-s {
+        flex-direction: column;
+    }
+
+    .card-p-w {
+        font-size: 20px;
+    }
+
+    /* testimonials */
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .test-p {
+        font-size: 20px;
+    }
+
+    .t-card-text {
+        font-size: 18px;
+    }
+
+    /* benefit */
+
+    .b-col {
+        flex-basis: calc( 100% / 2);
+    }
+
+    /* about */
+
+    .as-p {
+        font-size: 20px;
+    }
+
+    .photo-marker {
+        top: 5215px;
+        right: 60px;
+    }
+
+    /* get-started */
+
+    .p-w {
+        font-size: 16px;
+    }
+
+    .btn-w {
+        font-size: 20px;
+    }
+
+}
