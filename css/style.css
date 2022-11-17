@@ -336,6 +336,9 @@ a {
 
 .card-30 {
     width: 30%;
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 
 .as-p {
@@ -352,15 +355,14 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: relative;
-    bottom: 0;
-    left: 0;
 }
 
 .photo-marker {
     position: absolute;
     font-size: 50px;
     color: #A6A2E8;
+    top: 0;
+    right: 150px;
 }
 
 .fa-linkedin {
@@ -436,6 +438,11 @@ a {
     .container {
         max-width: 920px;
         margin: 0 auto;
+    }
+
+    .photo-marker {
+        top: 0;
+        right: 65px;
     }
 
 }
@@ -531,8 +538,8 @@ a {
     }
 
     .photo-marker {
-        top: 5305px;
-        right: 60px;
+        top: 0px;
+        right: 0px;
     }
 
     /* get-started */
@@ -680,8 +687,8 @@ a {
     }
 
     .photo-marker {
-        top: 7570px;
-        left: 225px;
+        top: 0px;
+        right: 210px;
     }
 
     /* get-started */
