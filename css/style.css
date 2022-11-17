@@ -26,8 +26,13 @@ body {
 header{
     background-color: #0084FD;
     color: #fff;
-    padding: 10px 0 15px 0;
+    padding: 15px 0 15px 0;
     box-shadow: 0 1px 10px 0 #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .flex-c {
@@ -46,6 +51,10 @@ a {
     padding: 0 10px;
 }
 
+.block {
+    display: none;
+}
+
 .btn-h {
     padding: 8px 14px;
     border-radius: 30px;
@@ -62,7 +71,7 @@ a {
 /* option */
 
 .option {
-    margin: 50px auto;
+    margin: 150px 0 50px 0;
 }
 
 .card-up {
@@ -241,7 +250,7 @@ a {
     align-items: center;
     width: 100%;
     background-color: #A6A2E8;
-    height: 250px;
+    min-height: 250px;
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 30px;
@@ -417,7 +426,7 @@ a {
 }
 
 
-/* query */
+/* +++++query+++++ */
 
 
 /* 1024px */
@@ -438,6 +447,17 @@ a {
     .container {
         max-width: 650px;
         margin: 0 auto;
+    }
+
+    /* header */
+
+    .nav-bar {
+        display: none;
+    }
+
+    .block {
+        display: block;
+        font-size: 25px;
     }
 
     /* otion */
@@ -511,7 +531,7 @@ a {
     }
 
     .photo-marker {
-        top: 5215px;
+        top: 5305px;
         right: 60px;
     }
 
@@ -523,6 +543,151 @@ a {
 
     .btn-w {
         font-size: 20px;
+    }
+
+}
+
+/* 576px */
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        max-width: 415px;
+        margin: 0 auto;
+    }
+
+    /* header */
+
+    .nav-bar {
+        display: none;
+    }
+
+    .block {
+        display: block;
+        font-size: 25px;
+    }
+
+    /* otion */
+
+    .row {
+        flex-direction: column;
+    }
+
+    .card-66 {
+      width: 100%;
+    }
+    
+    .phone {
+        height: 42%;
+        margin: 0 auto;
+        margin-top: 37px;
+    }
+
+    .card-32 {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    .card {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    /* planning */
+
+    .flex-c-s {
+        padding: 50px 70px 0 70px;
+        flex-direction: column;
+    }
+
+    .img-v {
+        margin-bottom: 30px;
+    }
+
+    .card-p-w {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .planning-w {
+        margin-top: 25px;
+    }
+
+    /* testimonials */
+
+    .subtitle {
+        font-style: 15px;
+    }
+
+    .s-title {
+        font-size: 30px;
+    }
+
+    .test-p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .testiomonial-crd {
+        flex-direction: column;
+        max-height: 415px;
+    }
+
+    .test-img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+    
+    .desc-test {
+        padding: 20px 15px 0 15px;
+    }
+
+    .t-card-text {
+        font-size: 15px;
+    }
+
+    /* benefit */
+
+    .s-title {
+        font-size: 40px;
+    }
+
+    .b-col {
+        flex-basis: 100%;
+    }
+
+    /* about */
+
+    .card-70 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .as-p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .card-30 {
+        width: 100%;
+    }
+
+    .as-desc {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .photo-marker {
+        top: 7570px;
+        left: 225px;
+    }
+
+    /* get-started */
+
+    .p-w {
+        font-size: 10px;
     }
 
 }
